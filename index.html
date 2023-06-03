@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1).
+    <script>
+        function fillArrayWithRandomNumbers(arr) {
+  for (let i = 0; i < 20; i++) {
+    arr.push(Math.floor(Math.random() * 100)); 
+  }
+}
+
+let myArray = [];
+fillArrayWithRandomNumbers(myArray);
+console.log(myArray);
+
+    </script> -->
+
+    <!-- 2).
+    <script>
+        function printEvenNumbers(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      console.log(arr[i]);
+    }
+  }
+}
+
+let myArray = [9, 12, 5, 18, 3, 7, 4, 10, 21, 16, 6, 14, 2, 11, 8, 13, 1, 19, 15, 17];
+printEvenNumbers(myArray);
+
+    </script> -->
+
+
+    <!-- 3).
+    <script>
+        function generateRandomNumbers(count) {
+  let arr = [];
+  for (let i = 0; i < count; i++) {
+    arr.push(Math.floor(Math.random() * 100)); 
+  }
+  return arr;
+}
+
+let numberOfNumbers = 10;
+let randomArray = generateRandomNumbers(numberOfNumbers);
+console.log(randomArray);
+
+    </script> -->
+
+    <!-- 4).
+    <script>
+        function selectMultiplesOfThree(arr) {
+  let multiplesOfThree = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 3 === 0) {
+      multiplesOfThree.push(arr[i]);
+    }
+  }
+  return multiplesOfThree;
+}
+
+let myArray = [9, 12, 5, 18, 3, 7, 4, 10, 21, 16, 6, 14, 2, 11, 8, 13, 1, 19, 15, 17];
+let multiples = selectMultiplesOfThree(myArray);
+console.log(multiples);
+
+    </script> -->
+
+
+    <!-- 5).
+    <script>
+        function checkArrayContainsNumber(arr, number) {
+  return arr.includes(number);
+}
+
+let myArray = [5, 8, 12, 7, 3, 10];
+let searchNumber = 7;
+let containsNumber = checkArrayContainsNumber(myArray, searchNumber);
+console.log(containsNumber);
+
+    </script> -->
+</body>
+</html>
